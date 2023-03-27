@@ -1,8 +1,10 @@
-#include <stdio.h>
+#include "main.h"
 
-/*
-* Reset sent parameter to 98
-*/
+/**
+ * reset_to_98 - updates the value of the variable
+ * the pointer points to to 98
+ * @n: pointer to the variable to update
+ */
 void reset_to_98(int *n)
 {
 	*n = 98;
