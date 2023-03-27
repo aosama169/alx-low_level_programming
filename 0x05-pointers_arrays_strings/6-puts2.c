@@ -9,7 +9,8 @@
 void puts2(char *str)
 {
 int i;
-	for (i = 0; i <= (strlen(*str) / 2); i += 2)
+char temp[1000] = *str;
+	for (i = 0; i <= (strlen(temp) / 2); i += 2)
 	{
 		putchar(str[i]);
 	}
