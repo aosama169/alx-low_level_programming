@@ -5,7 +5,8 @@
  * @dest: pointer for destination
  * @src: pointer for source string
  * @n: number of charachters to concatenate
- * return pointer of concatenated string
+ *
+ * Return: pointer of concatenated string
  */
 
 char *_strncat(char *dest, char *src, int n)
