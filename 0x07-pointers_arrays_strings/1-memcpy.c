@@ -5,6 +5,7 @@
  *
  * @dest: destination
  * @src: source string
+ * @n: number
  * Return: destination
  *
 */
