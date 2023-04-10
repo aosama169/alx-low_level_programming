@@ -8,7 +8,7 @@
  *
  * Return: success 0 , error 1
  */
- 
+
 int main(int argc, char *argv[])
 {
 	int summit, num, i, j, k;
