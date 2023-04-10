@@ -1,7 +1,8 @@
 #include <stdio.h>
+#include <stdlib.h>
 
 /**
- * main - num multiplier
+ * main - program that multiplies two numbers
  * @argc: number of args
  * @argv: array of args
  *
