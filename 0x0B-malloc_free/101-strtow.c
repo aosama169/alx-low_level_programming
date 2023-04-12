@@ -32,7 +32,7 @@ int count_word(char *s)
  *
  * Return: pointer to an array of strings
  */
- 
+
 char **strtow(char *str)
 {
 	char **matrix, *temp;
