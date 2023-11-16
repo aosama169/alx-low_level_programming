@@ -4,13 +4,11 @@
 /**
  * print_list - print all elements of linked lists
  * @h: pointer to list to print
- *
  * Return: the number of printed nodes
  */
 size_t print_list(const list_t *h)
 {
 	size_t s = 0;
-
 	while (h)
 	{
 		if (!h->str)
@@ -20,6 +18,5 @@ size_t print_list(const list_t *h)
 		h = h->next;
 		s++;
 	}
-
 	return (s);
 }
