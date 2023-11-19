@@ -1,3 +1,4 @@
+#include "main.h"
 #include <stdio.h>
 
 /**
@@ -6,16 +7,15 @@
  * @accept: string to search
  * Return: pointer to the byte in s that matches one of the bytes in accept, or NULL if no such byte is found
  */
-
 char *_strpbrk(char *s, char *accept)
 {
-	int i, k;
+	int i, j;
 
 	for (i = 0; *s != '\0'; i++)
 	{
-		for (k = 0; accept[j] != '\0'; k++)
+		for (j = 0; accept[j] != '\0'; j++)
 		{
-			if (*s == accept[k])
+			if (*s == accept[j])
 			{
 				return (s);
 			}
@@ -25,4 +25,3 @@ char *_strpbrk(char *s, char *accept)
 
 	return (NULL);
 }
-
