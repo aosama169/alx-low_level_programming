@@ -1,3 +1,4 @@
+#include "main.h"
 
 /**
  * binary_to_uint- convert binary to un signed int
