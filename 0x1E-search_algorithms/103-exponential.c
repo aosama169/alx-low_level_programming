@@ -50,7 +50,7 @@ int b_search(int *array, size_t low, size_t high, int value)
  * @size: Number of elements in array
  * @value: Value to search for in array
  *
- * Return: first index where value is located
+ * Return: first idx where value is located
  */
 int exponential_search(int *array, size_t size, int value)
 {
